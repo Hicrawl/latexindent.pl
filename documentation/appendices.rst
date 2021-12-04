@@ -22,7 +22,6 @@ If you intend to use ``latexindent.pl`` and *not* one of the supplied standalone
    use warnings;
    use utf8;
    use PerlIO::encoding;
-   use Unicode::GCString;
    use open ':std', ':encoding(UTF-8)';
    use Text::Wrap;
    use Text::Tabs;
@@ -87,7 +86,6 @@ Linux users may be interested in exploring Perlbrew (“Perlbrew” n.d.); an ex
    curl -L http://cpanmin.us | perl - App::cpanminus
    cpanm YAML::Tiny
    cpanm File::HomeDir
-   cpanm Unicode::GCString
 
 Ubuntu/Debian
 ^^^^^^^^^^^^^
@@ -101,7 +99,6 @@ For other distributions, the Ubuntu/Debian approach may work as follows
    sudo cpan -i App::cpanminus
    sudo cpanm YAML::Tiny
    sudo cpanm File::HomeDir
-   sudo cpanm Unicode::GCString
 
 or else by running, for example,
 
@@ -158,7 +155,6 @@ If you are using Alpine, some ``Perl`` modules are not build-compatible with Alp
    cpanm -n File::HomeDir
    cpanm -n Params::ValidationCompiler
    cpanm -n YAML::Tiny
-   cpanm -n Unicode::GCString
 
 Users of NixOS might like to see https://github.com/cmhughes/latexindent.pl/issues/222 for tips.
 
@@ -175,7 +171,6 @@ Users of the Macintosh operating system might like to explore the following comm
 
    cpanm YAML::Tiny
    cpanm File::HomeDir
-   cpanm Unicode::GCString
 
 Windows
 ~~~~~~~

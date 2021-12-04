@@ -11,7 +11,6 @@ use strict;
 use warnings;
 use utf8;
 use PerlIO::encoding;
-use Unicode::GCString;
 use open ':std', ':encoding(UTF-8)';
 use Text::Wrap;
 use Text::Tabs;
@@ -54,7 +53,6 @@ sudo apt-get install curl
 curl -L http://cpanmin.us | perl - App::cpanminus
 cpanm YAML::Tiny
 cpanm File::HomeDir
-cpanm Unicode::GCString
 cpanm Log::Log4perl
 cpanm Log::Dispatch
 \end{commandshell}
