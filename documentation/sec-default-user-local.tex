@@ -453,7 +453,7 @@ lookForAlignDelims:
 		      specifies the justification for the alignment delimeters (default: left); note that this
 		      feature is only useful if you have delimiters of different lengths in the same column,
 		      discussed in \cref{sec:delimiter-reg-ex};
-		\item \announce*{2021-12-04}{lookForChildCodeBlocks feature} optionally instructs
+		\item \announce{new}{lookForChildCodeBlocks feature} optionally instructs
 		      \texttt{latexindent.pl}
 		      to search for child code blocks or not (default: 1), discussed in
 		      \cref{sec:lookForChildCodeBlocks}.
@@ -945,9 +945,10 @@ latexindent.pl tabbing1.tex -l=delimiterRegEx5.yaml -o=+-mod5
 
 \subsubsection{lookForAlignDelims: the lookForChildCodeBlocks feature}\label{sec:lookForChildCodeBlocks}
 	There
-	\announce*{2021-12-04}{lookForChildCodeBlocks demonstration} may be scenarios in which you
-	would prefer to instruct \texttt{latexindent.pl} \emph{not} to search for child blocks;
-	in which case setting \texttt{lookForChildCodeBlocks} to 0 may be a good way to proceed.
+	\announce{new}{lookForChildCodeBlocks demonstration} may be scenarios in
+	which you would prefer to instruct \texttt{latexindent.pl} \emph{not} to search for child
+	blocks; in which case setting \texttt{lookForChildCodeBlocks} to 0 may be a good way to
+	proceed.
 
 	Using the settings from \vref{lst:dontMeasure1} on the file in \cref{lst:tabular-DM-1}
 	and running the command

@@ -64,7 +64,8 @@ of test cases on every commit.
 
 ## getting started
 
-### by hand
+<details>
+<summary>perl users</summary>
 
 You'll need
 ```
@@ -79,7 +80,11 @@ of the [documentation](https://latexindentpl.readthedocs.io/en/latest/);
 you might also like to see [.travis.yml](.travis.yml) for Linux/MacOS users,
 and [.appveyor.yml](.appveyor.yml) for Strawberry perl users.
 
-Windows users who do not have a perl installation might prefer to get
+</details>
+<details>
+<summary>Windows users who do not have a perl installation</summary>
+
+You might prefer to get
 
     latexindent.exe
     defaultSettings.yaml
@@ -95,7 +100,9 @@ of this repository, and you can track the actions on the [actions page](https://
 > ![Batch latexindent.pl check](https://github.com/cmhughes/latexindent.pl/actions/workflows/batch-check.yaml/badge.svg)
 ![Publish latexindent.exe](https://github.com/cmhughes/latexindent.pl/actions/workflows/build-documentation-and-windows-exe.yaml/badge.svg)
 
-### with conda
+</details>
+<details>
+<summary>conda users</summary>
 
 If you use conda you'll only need
 ```
@@ -106,6 +113,7 @@ You don't even have to worry about `defaultSettings.yaml` as it included too.
 
 > [![Conda Version](https://img.shields.io/conda/vn/conda-forge/latexindent.pl.svg)](https://anaconda.org/conda-forge/latexindent.pl)
 
+</details>
 ## testing
 
 A nice way to test the script is to navigate to the test-cases

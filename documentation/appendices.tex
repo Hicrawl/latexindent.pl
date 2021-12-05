@@ -144,6 +144,21 @@ cpanm File::HomeDir
 latexindent.exe -t myfile.tex
  \end{dosprompt}
 
+	\section{Using conda}
+	 If you use conda you'll only need
+	 \begin{commandshell}
+conda install latexindent.pl -c conda-forge
+\end{commandshell}
+	 this will install the executable and all its dependencies (including perl) in the
+	 activate environment. You don't even have to worry about ``defaultSettings.yaml`` as it
+	 included too, you can thus skip \cref{sec:requiredmodules,sec:updating-path}.
+
+	 You can get a conda installation for example from
+	 \href{conda-forge}{https://github.com/conda-forge/miniforge} or from
+	 \href{anaconda}{https://www.anaconda.com/products/individual}.
+
+	 Thanks to \cite{tdegeus} for their contributions to this work.
+
 	\section{Updating the path variable}\label{sec:updating-path}
 	 \texttt{latexindent.pl} has a few scripts (available at \cite{latexindent-home}) that can
 	 update the \texttt{path} variables. Thank you to \cite{jasjuang} for this feature. If

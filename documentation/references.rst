@@ -54,6 +54,11 @@ References
       Friedl, Jeffrey E. F. n.d. *Mastering Regular Expressions*.
 
    .. container::
+      :name: ref-tdegeus
+
+      Geus, Tom de. 2021. “Conda Contributions.” December 5, 2021. https://github.com/cmhughes/latexindent.pl/issues/303.
+
+   .. container::
       :name: ref-latexindent-home
 
       “Home of Latexindent.pl.” n.d. Accessed January 23, 2017. https://github.com/cmhughes/latexindent.pl.
